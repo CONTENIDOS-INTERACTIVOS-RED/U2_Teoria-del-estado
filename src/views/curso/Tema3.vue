@@ -1,105 +1,185 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'3.Fundamento jurídico y legal del Estado'")
+    BannerInterno(:subTitulo="'3.Funciones del Estado'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
-      .row.bg-marron.bg-full-width.mb-4
+      .row.mb-4
+        .col-12.col-xl-8
+          .row.bg-azul.p-4.pb-xl-0.mx-0(data-aos='fade-up')
+            .col-2.d-none.d-xl-block
+              img(src='@/assets/curso/unidad/img-37.png', alt='Texto que describa la imagen')
+            .col-12.col-xl-10.d-flex
+              p.my-auto.pb-xl-4 El <b>Estado</b> es la estructura fundamental de organización social y política, responsable de garantizar el orden, la seguridad y el bienestar de sus ciudadanos. Para cumplir con esta misión, ejerce un conjunto de funciones esenciales que han evolucionado a lo largo del tiempo, adaptándose a los cambios sociales, económicos y políticos.
+          .bloque-texto-c.bg-azul-oscuro.p-4
+            i.fas.fa-quote-left.text-.mb-4
+            h3.mb-2 "El Estado moderno ha evolucionado hacia un esquema más complejo, en el que sus funciones han pasado de ser meramente coercitivas a incluir responsabilidades en el desarrollo económico y social" 
+            span.text-small (Villamar Cruz & López Durán, 2018, p. 45)
+
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
+
+      h2 Clasificación de las funciones del Estado
+      p.mb-4 Según <b>Villamar Cruz y López Durán (2018)</b>, las funciones del Estado se clasifican en:
+
+      .row.mb-4
+        .col-10.col-xl-4.mx-auto
+          .d-flex.align-items-start.bg-marron.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-39.svg', alt='Texto descriptivo de la imagen')
+            .my-auto
+              p.pe-xl-3.mb-2.text-bold Seguridad
+              span Educación
+        .col-10.col-xl-4.mx-auto
+          .d-flex.align-items-start.bg-marron.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-40.svg', alt='Texto descriptivo de la imagen')
+            .my-auto
+              p.pe-xl-3.mb-2.text-bold Justicia
+              span Salud
+        .col-10.col-xl-4.mx-auto
+          .d-flex.align-items-start.bg-marron.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-41.svg', alt='Texto descriptivo de la imagen')
+            .my-auto
+              p.pe-xl-3.mb-2.text-bold Administración pública
+              span Desarrollo económico
+
+      h2 Funciones Fundamentales del Estado
+      p.mb-4 Todo Estado necesita cumplir funciones esenciales para garantizar la convivencia y el bienestar de su población. A continuación, se explorarán tres de esas funciones clave: seguridad, justicia y administración pública, con ejemplos concretos de cómo se implementan en diferentes partes del mundo.
+
+      .row.bg-fondo-slider.bg-full-width.py-4.mb-4
         div.px-5.pb-md-3
-          .row
-            .col-3.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-57.png', alt='Texto que describa la imagen')
-            .col-12.col-xl-9.d-flex(data-aos="fade-up")
-              .d-flex.flex-column.my-auto
-                p.mb-4 El Estado, como institución fundamental de organización política y social, requiere un fundamento jurídico y legal que le otorgue legitimidad y garantice su funcionamiento dentro de un marco normativo.
-                span Este fundamento está constituido por el conjunto de normas y principios que rigen su estructura, organización y accionar. A través del derecho, el Estado establece sus competencias, regula las relaciones entre los ciudadanos y define los mecanismos de aplicación de justicia.
-      #t_3_1.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 3.1
-          h2 Evolución del fundamento jurídico del estado.
+          figure
+            .video
+              <iframe width="1905" height="748" src="https://www.youtube.com/embed/zkvXxGhm-SI" title="Bienvenida a la asignatura Teoria del Estado" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      h2 Funciones complementarias del Estado
+      p.mb-4 Estas funciones buscan <b>mejorar la calidad de vida</b> y garantizar la equidad en el acceso a oportunidades como la educación, la salud y el desarrollo económico.
+
+      .row.mb-4
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-42.png', alt='Texto que describa la imagen')
+        .col-12.col-lg-7.col-xl-8
+          AcordionA(tipo="b")
+            .div(titulo="Educación")
+              p Pilar del desarrollo social; el Estado debe garantizar educación gratuita y de calidad. <br><br><b>Colombia:</b> educación pública obligatoria hasta secundaria; programas como ICETEX y estrategias de inclusión. Persisten brechas urbano-rurales. <br><br><b>Finlandia:</b> modelo educativo reconocido mundialmente; autonomía docente, formación especializada y eliminación de exámenes estandarizados para un aprendizaje integral.
+
+            .div(titulo="Salud")
+              p Asegura el bienestar físico y mental mediante infraestructura y programas de prevención. <br><br><b>Colombia:</b> sistema mixto con gestión de la ADRES; retos como congestión hospitalaria y acceso limitado en zonas rurales. <br><br><b>Canadá:</b> sistema totalmente público, financiado por impuestos, con cobertura universal y enfoque en prevención y bienestar.
+
+            .div(titulo="Desarrollo económico")
+              p Promueve empleo, crecimiento sostenible y distribución equitativa de la riqueza. <br><br><b>Colombia:</b> políticas como “Economía Naranja” e integración a tratados comerciales internacionales. <br><br><b>China:</b> desarrollo planificado por el Estado; políticas industriales y de comercio que han posicionado al país como potencia económica, combinando economía de mercado con control estatal.
 
       .row.bg-fondo-1.bg-full-width.py-4.mb-4
         div.px-5.pb-md-3
 
-          p.mb-4 El derecho y el poder se han adaptado para atender las necesidades cambiantes de las sociedades, desde la concentración absoluta del poder hasta su democratización. Como lo demuestra el siguiente cuadro: 
           .row.mb-4
-            .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-right")
-              div.custom-image-card.rounded-8px
-                img.mb-4(src='@/assets/curso/unidad/img-58.png', alt='Texto que describa la imagen')
-                div.mb-4
-                  p.text-bold.text-center Estado Absolutista (Siglos VI-VIII)
-                  p.text-small.px-4.text-center.pb-2 El poder estaba concentrado en una sola persona y no existía un marco normativo que limitara sus decisiones.
-            .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-up")
-              div.custom-image-card.rounded-8px
-                img.mb-4(src='@/assets/curso/unidad/img-59.png', alt='Texto que describa la imagen')
-                div.mb-4
-                  p.text-bold.text-center Estado liberal (Siglo XIX)
-                  p.text-small.px-4.text-center.pb-2 Surge la necesidad de limitar el poder estatal a través de constituciones que garanticen los derechos fundamentales.
-            .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-left")
-              div.custom-image-card.rounded-8px
-                img.mb-4(src='@/assets/curso/unidad/img-60.png', alt='Texto que describa la imagen')
-                div.mb-4
-                  p.text-bold.text-center Estado Social de Derecho (Siglo XX)
-                  p.text-small.px-4.text-center.pb-2 Se incorpora la obligación del Estado de garantizar el bienestar social, además de proteger los derechos individuales.
-          
-      .d-flex.align-items-start.bg-full-width.bg-morado.text-white.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-61.svg', alt='Texto descriptivo de la imagen')
-        .my-auto
-          p.pe-xl-3.mb-0 El derecho es el principal instrumento del Estado para garantizar el orden y la convivencia social. Desde la perspectiva del constitucionalismo, el Estado debe regirse por un marco jurídico que limite su poder y garantice la protección de los derechos fundamentales de los ciudadanos. Bobbio (1989) sostiene que el derecho y el poder estatal son interdependientes, ya que sin un orden normativo que legitime su accionar, el Estado carecería de estabilidad y reconocimiento. Este principio está presente en las democracias actuales y permite la regulación del ejercicio del poder público.
+            .col-12.col-xl-9
+              h2 Perspectiva administrativa de las funciones del Estado
+              p.mb-4 Desde una <b>perspectiva administrativa</b>, las funciones del Estado se agrupan en tres ramas fundamentales: <b>legislativa, ejecutiva y judicial</b>. Cada una cumple un rol específico dentro del sistema institucional y garantiza el cumplimiento de los principios democráticos mediante un equilibrio de poderes.
 
-      #t_3_2.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 3.2
-          h2 Principios normativos del estado.
+              .bloque-texto-c.bg-marron.p-4.mb-4
+                i.fas.fa-quote-left.text-.mb-4
+                h3.mb-2 "Las funciones públicas deben responder a los principios de eficiencia, legalidad y transparencia, siendo la base de un Estado democrático de derecho"
+                span.text-small (Fernández Ruiz, 2024, p. 32).
 
-      p.mb-4(data-aos="fade-up") El fundamento jurídico del Estado se construye sobre una serie de principios normativos que garantizan su operatividad y legitimidad. Algunos de los principios fundamentales son:
+            .col-3.d-none.d-xl-block
+              img(src='@/assets/curso/unidad/img-43.png', alt='Texto que describa la imagen')
 
-      .row.mb-4.bg-amarillo.px-4.py-0
-        .col-12.col-xl-8.d-flex(data-aos="fade-up")
-          .my-auto
-            p.mb-2 ●	Principio de legalidad: todo acto del Estado debe estar basado en normas jurídicas previamente establecidas.
+          p.mb-4 La clasificación de las funciones administrativas del Estado es:
 
-            p.mb-2 ●	Principio de supremacía constitucional: la Constitución es la norma suprema del ordenamiento jurídico y todas las leyes deben ajustarse a ella.
-            p.mb-2 ●	Principio de separación de poderes: para evitar el abuso de poder, las funciones del Estado se dividen en ejecutivo, legislativo y judicial.
-            p.mb-2 ●	Principio de garantía de los derechos fundamentales: el Estado debe proteger los derechos humanos reconocidos en su ordenamiento jurídico.
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-62.png', alt='Texto que describa la imagen')
+          .row.mb-4.justify-content-center
+            .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-44.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Legislativa
+                p.px-1.text-small.mb-0.text-center Elabora y aprueba leyes que regulan la vida social; representa los intereses ciudadanos.
+            .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-45.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Ejecutiva
+                p.px-1.text-small.mb-0.text-center Implementa políticas públicas, administra recursos y dirige el funcionamiento del gobierno.
+            .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-46.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Judicial
+                p.px-1.text-small.mb-0.text-center Interpreta y aplica las leyes; resuelve conflictos jurídicos y protege los derechos fundamentales.
 
-      #t_3_3.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 3.3
-          h2 La Constitución: Base del fundamento jurídico del Estado.
+      h2 Función Legislativa
+      p.mb-4 La función legislativa es responsable de la <b>creación y aprobación de leyes</b>, así como del <b>control político del gobierno</b>.
+
+      TabsC.mb-4
+        .tabs-content.border.px-4.p-md-5.py-3(titulo='Colombia', :icon="require('@/assets/curso/unidad/img-47.svg')")
+          .row
+            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+              figure
+                img(src='@/assets/curso/unidad/img-48.png', alt='Descripción de la imagen')
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              h4(data-aos='fade-up') Colombia
+              p(data-aos='fade-up') Congreso de la República: dividido en <b>Senado y Cámara de Representantes</b>. Aprueba leyes, controla políticamente al Ejecutivo, y debate el presupuesto nacional. Puede citar ministros.
+        .tabs-content.border.px-4.p-md-5.py-3(titulo='Reino Unido', :icon="require('@/assets/curso/unidad/img-47.svg')")
+          .row
+            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+              figure
+                img(src='@/assets/curso/unidad/img-49.png', alt='Descripción de la imagen')
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              h4(data-aos='fade-up') Reino Unido
+              p(data-aos='fade-up') Parlamento: compuesto por la <b>Cámara de los Comunes</b> (electa por voto popular) y la <b>Cámara de los Lores</b> (revisión y consulta). El Ejecutivo depende del respaldo parlamentario (<i>parlamentarismo</i>).
+
+      h2 Función Ejecutiva
+
+      p.mb-4 La función ejecutiva se centra en la <b>implementación de políticas públicas</b>, la <b>administración del Estado</b> y la <b>gestión de los recursos públicos</b>.
 
       .row.mb-4
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-63.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8(data-aos="fade-up")
-          p.mb-4 La Constitución constituye el pilar del fundamento jurídico del Estado, ya que organiza la estructura política, define los derechos fundamentales y establece los límites del poder. Según Cassagne (2016), "la Constitución es el fundamento del Estado de derecho, al garantizar la jerarquía normativa y establecer un equilibrio entre los poderes públicos y los derechos ciudadanos" (p. 47). Esta norma suprema asegura la cohesión del sistema legal y regula las relaciones entre gobernantes y gobernados.
-          .d-flex.align-items-start.bg-azul.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-64.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-0 Además de garantizar el Estado de derecho, la Constitución fija los mecanismos de participación ciudadana mediante procesos como el sufragio, los referendos y las consultas populares. Estos instrumentos permiten que la voluntad del pueblo se exprese en el diseño de las políticas públicas, consolidando la legitimidad democrática. Como lo señala Cassagne (2016), “la participación democrática es una de las características esenciales de una Constitución moderna, al equilibrar los intereses colectivos y los derechos individuales” (p. 53). Este enfoque subraya la relevancia de la Constitución en la protección de derechos fundamentales y en la promoción de la igualdad.
+        .col-12.col-lg-7.col-xl-8
+          AcordionA(tipo="b")
+            .div(titulo="Colombia")
+              p El <b>Presidente de la República</b> es jefe de Estado y jefe de gobierno, elegido por voto popular. Dirige la política nacional, relaciones exteriores y seguridad. Cuenta con ministros para áreas específicas (salud, educación, economía, etc.).
+            .div(titulo="Francia")
+              p Sistema <b>semipresidencialista</b>. El <b>Presidente</b> maneja asuntos exteriores y seguridad, mientras que el <b>Primer Ministro</b> lidera la administración interna y responde ante el Parlamento, equilibrando el poder entre Ejecutivo y Legislativo.
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-50.png', alt='Texto que describa la imagen')
 
-      p.mb-4 Por último, la Constitución también actúa como un instrumento de adaptación jurídica, permitiendo al Estado afrontar cambios sociales y políticos. Su carácter dinámico refleja la necesidad de adecuarse a las transformaciones globales mientras se preserva la estabilidad interna. Este marco normativo resalta el compromiso del Estado con la justicia y la equidad.
-      #t_3_4.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 3.4
-          h2 El Estado de Derecho: garantía de igualdad y justicia.
+      h2 Función Judicial
+      p.mb-4 La función judicial vela por la <b>aplicación justa de las leyes</b>, la <b>resolución de disputas</b> y la <b>protección de derechos</b>.
 
-      .row.mb-4.mx-0
-        .col-12.col-xl-8.d-flex.align-items-center.bg-azul.p-4(data-aos="fade-left")
-          p.mb-0(data-aos="fade-up") El concepto de Estado de derecho define al Estado como una entidad sometida a un sistema normativo, en el cual tanto los ciudadanos como las instituciones públicas están sujetos al cumplimiento de las leyes. Kelsen (2019) resalta que "el Estado de derecho no puede ser separado del orden jurídico, pues es este el que dota de validez al poder estatal" (p. 74). De esta forma, la supremacía legal garantiza que todas las decisiones y acciones gubernamentales estén fundamentadas en normas previamente establecidas.
-        .d-none.d-xl-block.col-4.px-0(data-aos="fade-right")
-          img.h-100(src='@/assets/curso/unidad/img-65.png', alt='Texto que describa la imagen')
-  
-      .row.mb-5
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-66.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8(data-aos="fade-up")
-          p.mb-4 El Estado de derecho se basa en el principio de igualdad ante la ley, asegurando que ningún individuo o autoridad quede excluido de su ámbito de aplicación. Asimismo, contempla la separación de poderes como un mecanismo para evitar el abuso de poder. Según Kelsen (2019), “la separación de poderes no es solo una medida práctica, sino un elemento esencial para preservar el equilibrio institucional y proteger los derechos fundamentales” (p. 81). Este principio refuerza la importancia de las instituciones independientes, como el poder judicial, que actúan como guardianes de la legalidad.
-          .d-flex.align-items-start.bg-gris.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-67.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-0 Por lo tanto, el Estado de derecho asegura la estabilidad jurídica, lo cual es indispensable para el desarrollo económico y social. Kelsen (2019) destaca que "el orden jurídico es la base de la paz social, al garantizar la previsibilidad de las normas y su aplicación equitativa" (p. 89). En este contexto, la protección de los derechos humanos y la promoción de la justicia social se convierten en los principales objetivos del Estado moderno.
+      .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
+        div.px-4.px-md-5.py-md-3
+          SlyderA(tipo="b").bg-white
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Colombia
+                p Compuesto por la <b>Corte Constitucional</b> (garantiza la supremacía constitucional), la <b>Corte Suprema de Justicia</b> (asuntos penales y civiles) y el <b>Consejo de Estado</b> (litigios administrativos).
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-51.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Estados Unidos
+                p El <b>Tribunal Supremo</b> interpreta la Constitución y puede declarar inconstitucionales leyes o decisiones del Ejecutivo. El sistema de <i>checks</i> and balances permite que el Judicial limite excesos de los otros poderes, asegurando el equilibrio institucional.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-52.png', alt='Texto que describa la imagen')
+
+      .row.mb-4
+        .col-1.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-53.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-11
+          p Desde la perspectiva administrativa, las funciones legislativa, ejecutiva y judicial del Estado se articulan para garantizar un gobierno democrático, eficaz y transparente. Cada una cumple un papel insustituible en el equilibrio de poderes, asegurando la legalidad, la participación ciudadana y la justicia.
+
+      .row.bg-azul.bg-full-width.py-4.mb-4
+        div.px-5.pb-md-3.py-4.d-flex
+          .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
+            h2.mb-4.pb-2.me-auto El rol del Estado en el desarrollo social y económico
+            p.mb-5(data-aos="fade-up") Se invita a leer el documento El rol del Estado en el desarrollo social y económico , donde se aborda cómo la intervención estatal influye en la equidad, el bienestar y el crecimiento económico de las sociedades modernas.
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+              img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
+              p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> El rol del Estado en el desarrollo social y económico
+          .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
+            img.h-100(src='@/assets/curso/unidad/img-54.png', alt='Texto que describa la imagen')
+
+
+      .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important').mb-5
+        .p-4.p-md-5
+          #Actividad
+            <Actividad :cuestionario='cuestionario'/>
 
       .bg-full-width.border-top-9-azul
         .px-5.pt-5.pb-0
@@ -107,19 +187,15 @@
           .row
             .col-12.col-md-6.col-lg-8
               p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://www.academia.edu/14363804/Teoria_Constitucional_e_Instituciones_Politicas_Vladimiro_Naranjo") Naranjo, Vladimiro. (2003). Teoría del Estado, Cap IV Fundamento y atributo jurídicos del estado. 229-268.
-              p.d-flex.my-4
                 img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://youtu.be/FlBMEXhtq5E?si=L4CDY-u6-SRE0zTb") [Vídeo] BCNChile (2016, 7 de septiembre). Constituciones políticas- ¿para qué sirve una constitución?
+                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=FReumE4uC84") [Vídeo] Aprendizaje Jurídico. (2021). Formas de Estado y sistemas de gobierno.
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.funcionesdel.com/sociedad/funciones_del_estado.html") Funciones del. (s.f.). Funciones del Estado.
             .col-12.col-md-6.col-lg-3
               figure
                 img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
-
-      .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
-        .p-4.p-md-5
-          #Actividad
-            <Actividad :cuestionario='cuestionario'/>
 
 </template>
 
@@ -132,7 +208,7 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Teoría del Estado',
+      tema: 'Formas de Estado y sistemas de gobierno',
       titulo: 'Ponte a prueba',
       introduccion:
         'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -141,30 +217,31 @@ export default {
         {
           id: 1,
           texto:
-            'Según Thomas Hobbes, ¿cuál es la principal razón para la existencia del Estado?',
+            '¿Cuál de las siguientes afirmaciones describe mejor un Estado unitario?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Garantizar la igualdad económica entre los ciudadanos.',
+              texto:
+                'Es una unión de Estados soberanos que conservan su independencia.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Evitar el caos y la guerra de todos contra todos mediante un poder absoluto.',
-              esCorrecta: true,
+                'Se basa en la descentralización total del poder en los gobiernos regionales.',
+              esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'Permitir la libre participación política sin restricciones.',
-              esCorrecta: false,
+                'Posee un único gobierno central que controle la totalidad del territorio.',
+              esCorrecta: true,
             },
             {
               id: 'd',
               texto:
-                'Establecer un sistema de justicia basado en la moral religiosa.',
+                'Está compuesto por diversos Estados con autonomía plena y un gobierno común.',
               esCorrecta: false,
             },
           ],
@@ -174,31 +251,31 @@ export default {
         {
           id: 2,
           texto:
-            'Para John Locke, el poder del Estado debe estar limitado porque:',
+            '¿Cuál es la principal diferencia entre un Estado federal y una confederación?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'El Estado solo puede existir si los ciudadanos aceptan una monarquía absoluta.',
+                'En el Estado federal, los Estados miembros tienen plena soberanía y pueden retirarse libremente.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Los individuos tienen derechos naturales inalienables que el gobierno debe proteger.',
-              esCorrecta: true,
+                'En la confederación, existe un gobierno central fuerte que rige sobre los Estados miembros.',
+              esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'El Estado debe gobernar de acuerdo con los intereses de la clase dominante.',
-              esCorrecta: false,
+                'En el Estado federal, los Estados tienen autonomía en algunas áreas, pero están subordinados a un gobierno central.',
+              esCorrecta: true,
             },
             {
               id: 'd',
               texto:
-                'La autoridad política debe basarse en la voluntad de un solo gobernante.',
+                'En la confederación, los Estados miembros carecen de independencia política.',
               esCorrecta: false,
             },
           ],
@@ -208,61 +285,48 @@ export default {
         {
           id: 3,
           texto:
-            '¿Qué principio fundamental propuso Montesquieu para evitar la concentración del poder en el Estado?',
+            'En un sistema parlamentario, ¿quién elige al jefe de gobierno?',
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'El principio de la voluntad general.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'El poder judicial', esCorrecta: false },
             {
               id: 'b',
-              texto: 'La teoría del absolutismo político.',
+              texto: 'La ciudadanía mediante votación directa',
               esCorrecta: false,
             },
-            {
-              id: 'c',
-              texto:
-                'La división de poderes en ejecutivo, legislativo y judicial.',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: 'El establecimiento de un solo poder centralizado.',
-              esCorrecta: false,
-            },
+            { id: 'c', texto: 'El parlamento.', esCorrecta: true },
+            { id: 'd', texto: 'El jefe de Estado', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 4,
-          texto: 'Karl Marx considera que el Estado es:',
+          texto:
+            '¿Cuál es una característica distintiva del sistema presidencialista?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Un instrumento de dominación de la burguesía sobre el proletariado.',
-              esCorrecta: true,
+              texto: 'El jefe de gobierno es elegido por el parlamento.',
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Una entidad neutral que busca el bienestar de todos los ciudadanos.',
-              esCorrecta: false,
+                'Existe una clara separación de poderes entre el Ejecutivo y el Legislativo.',
+              esCorrecta: true,
             },
             {
               id: 'c',
               texto:
-                'Un organismo independiente de la estructura económica de la sociedad.',
+                'El Presidente puede ser destituido mediante una moción de censura parlamentaria.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Un medio para garantizar la estabilidad política sin importar la economía.',
+                'El gobierno se mantiene mientras conserve la confianza del parlamento.',
               esCorrecta: false,
             },
           ],
@@ -272,13 +336,13 @@ export default {
         {
           id: 5,
           texto:
-            '¿Cuál de los siguientes elementos NO es considerado esencial para la existencia del Estado?',
+            '¿Cuál de las siguientes funciones NO corresponden a las funciones fundamentales del Estado?',
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Población.', esCorrecta: false },
-            { id: 'b', texto: 'Territorio.', esCorrecta: false },
-            { id: 'c', texto: 'Gobierno.', esCorrecta: false },
-            { id: 'd', texto: 'Soberanía.', esCorrecta: true },
+            { id: 'a', texto: 'Seguridad y justicia', esCorrecta: false },
+            { id: 'b', texto: 'Administración pública', esCorrecta: false },
+            { id: 'c', texto: 'Desarrollo económico.', esCorrecta: true },
+            { id: 'd', texto: 'Legislación', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',

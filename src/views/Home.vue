@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La unidad aborda el concepto de Estado, sus orígenes, elementos y fundamentos jurídicos. Analiza las principales teorías de pensadores como Hobbes, Rousseau, Maquiavelo, Montesquieu, Marx, Locke y Kelsen, destacando sus aportes sobre poder, soberanía y organización política. Explica los elementos esenciales del Estado: población, territorio, poder político y soberanía, así como su fundamento legal a través del constitucionalismo, el Estado de derecho y la supremacía constitucional. Este conocimiento permite comprender la estructura estatal, la dinámica del poder y el papel del derecho en la sociedad contemporánea.
+              p.descripcion.mb-4 La unidad 2 analiza las formas y funciones del Estado, explorando su evolución histórica y su organización contemporánea. Se estudian modelos como el Estado unitario, compuesto, federal y confederado, y sistemas de gobierno como el parlamentario, presidencialista y semipresidencialista. También se abordan las funciones estatales (seguridad, justicia, administración pública, salud, educación, desarrollo económico), destacando su importancia para la gobernanza moderna. La unidad fomenta una visión crítica sobre el papel del Estado en la sociedad y promueve la participación ciudadana y la comprensión del orden institucional.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

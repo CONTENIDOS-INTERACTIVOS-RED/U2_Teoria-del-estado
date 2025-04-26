@@ -1,2 +1,1 @@
-module.exports =
-  'El concepto de estado,  sus orígenes, elementos, fundamentos y funciones'
+module.exports = 'Formas de estado'

@@ -1,8 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad:
-      'El concepto de estado,  sus orígenes, elementos, fundamentos y funciones',
+    numeroUnidad: '2',
+    tituloUnidad: 'Formas de estado',
   },
   menuPrincipal: {
     menu: [
@@ -170,46 +169,110 @@ export default {
   referencias: [
     {
       referencia:
-        'Robles Vázquez, J. & Cruz Gayosso, M. (2014). Teoría general del estado. IURE Editores.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/40192',
+        'Crevari, E. L. (2015). Filosofía política y formas de gobierno: un recorrido histórico: ( ed.). Eudeba.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/119791',
     },
     {
       referencia:
-        'Bobbio, N. (1989). Estado, gobierno y sociedad. Fondo de Cultura Económica.',
-      link:
-        'https://ia601609.us.archive.org/25/items/bobbio-thomas-hobbes/Bobbio%20-%20Estado_text.pdf',
+        'Aguirre, J. L., & Montbrun, A. (Coords.). (2022). Temas de teoría política contemporánea: Un enfoque sistémico. Comunidad Editora Latinoamericana.',
+      link: 'Temas de teoría política contemporánea. Un enfoque sistémico',
     },
     {
       referencia:
-        'Aguilar Balderas, L. (2015). Teoría general del Estado. Grupo Editorial Patria.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/3939',
+        'Mateos y de Cabo, O. (2015). Presente y futuro de los sistemas políticos y los modelos constituciones: un estudio comparado: ( ed.). Dykinson.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/58062',
     },
     {
       referencia:
-        'Travis Arias Purón, R. (2015). Derecho 1. Grupo Editorial Patria.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/39483',
+        'Chávarri Sidera, P. (2013). Sistemas políticos contemporáneos: ( ed.). UNED - Universidad Nacional de Educación a Distancia.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/48584',
     },
     {
       referencia:
-        'Cassagne, J. C. (2016). Los grandes principios del Derecho Público (Constitucional y Administrativo). Editorial Reus.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/100489',
+        'Villamar Cruz, V. & López Durán, R. (2018). Teoría del estado: ( ed.). IURE Editores.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/40258',
     },
     {
       referencia:
-        'Kelsen, H. (2009). El método y los conceptos fundamentales de la teoría pura del derecho. Editorial Reus.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/46359',
+        'Fernández Ruiz, J. (2024). Capítulo 2: Las funciones públicas y otras actividades del Estado. En Derecho administrativo del estado de Yucatán (pp. 27-42). Universidad Nacional Autónoma de México, Instituto de Investigaciones Jurídicas.',
+      link: '20.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Administración pública',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Conjunto de instituciones y procesos encargados de gestionar los recursos del Estado y ejecutar políticas gubernamentales.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Autonomía regional',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Capacidad de autogobierno de una entidad territorial dentro de un Estado.',
+    },
+    {
+      termino: 'Constitución',
+      significado:
+        'Norma fundamental que establece la estructura del Estado y los derechos y deberes de los ciudadanos.',
+    },
+    {
+      termino: 'Democracia',
+      significado:
+        'Sistema de gobierno en el que el poder reside en la ciudadanía, ejercido mediante elecciones libres y periódicas.',
+    },
+    {
+      termino: 'Descentralización',
+      significado:
+        'Proceso mediante el cual el poder y las funciones del gobierno se distribuyen a niveles administrativos inferiores.',
+    },
+    {
+      termino: 'Desarrollo económico',
+      significado:
+        'Proceso mediante el cual un país mejora sus condiciones de vida a través del crecimiento productivo y la equidad social.',
+    },
+    {
+      termino: 'Ejecutivo',
+      significado:
+        'Poder del Estado encargado de implementar políticas y administrar los recursos gubernamentales.',
+    },
+    {
+      termino: 'Entidad estatal',
+      significado:
+        'Institución pública que forma parte de la estructura administrativa de un país y desempeña funciones específicas.',
+    },
+    {
+      termino: 'Jurisdicción judicial',
+      significado:
+        'Ámbito de competencia de los tribunales y jueces para interpretar y aplicar la ley en la resolución de conflictos.',
+    },
+    {
+      termino: 'Participación ciudadana',
+      significado:
+        'Mecanismo mediante el cual los ciudadanos influyen en la toma de decisiones del Estado.',
+    },
+    {
+      termino: 'Proceso legislativo',
+      significado:
+        'Conjunto de procedimientos a través de los cuales se crean, modifican o derogan leyes dentro de un Estado.',
+    },
+    {
+      termino: 'Seguridad pública',
+      significado:
+        'Conjunto de políticas y acciones dirigidas a proteger la vida, integridad y bienes de la población.',
+    },
+    {
+      termino: 'Separación de poderes',
+      significado:
+        'Principio que establece la división de funciones entre los poderes Ejecutivo, Legislativo y Judicial para evitar abusos de autoridad.',
+    },
+    {
+      termino: 'Soberanía',
+      significado:
+        'Capacidad del Estado para ejercer autoridad suprema sobre su territorio y su población sin interferencias externas.',
+    },
+    {
+      termino: 'Transparencia',
+      significado:
+        'Principio de gestión estatal que garantiza el acceso a la información y la rendición de cuentas.',
     },
   ],
 }

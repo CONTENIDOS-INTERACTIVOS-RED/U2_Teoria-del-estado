@@ -4,23 +4,19 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
     .row.mb-4
+      .col-10.col-lg-6.col-xl-4.mx-auto.bg-amarillo.p-4.d-flex(data-aos='fade-up')
+        span El estudio de las formas de Estado es fundamental para comprender la organización política y administrativa de los países en el mundo. A lo largo de la historia, los Estados han adoptado diversas estructuras que han permitido la distribución del poder y la gestión de sus territorios, garantizando el funcionamiento del gobierno y la estabilidad institucional. Esta unidad se centra en el análisis de los distintos modelos estatales y de gobierno, así como en el papel que desempeñan las funciones estatales en la administración pública y en la vida de los ciudadanos.
       .col-4.d-none.d-xl-block
         img(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')
-      .col-12.col-xl-8(data-aos="fade-up")
-        p.mb-4 El estudio del Estado es un aspecto fundamental en la comprensión de la organización política y jurídica de las sociedades. A lo largo de la historia, diferentes pensadores han desarrollado teorías que explican su origen, estructura y funciones, estableciendo bases esenciales para el análisis del derecho y la administración pública. En esta unidad, se examinarán las principales concepciones del Estado, sus elementos constitutivos y el fundamento jurídico que lo sostiene, proporcionando un marco teórico sólido para su estudio.
-        .d-flex.align-items-start.bg-amarillo.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-          img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-2.svg', alt='Texto descriptivo de la imagen')
-          .my-auto
-            p.pe-xl-3.mb-0 Al finalizar esta unidad, se espera que logre identificar y analizar las principales teorías sobre el origen del Estado, comprendiendo las ideas de Hobbes, Rousseau, Maquiavelo, Montesquieu, Marx, Locke y Kelsen. Además, se busca reconocer los elementos esenciales del Estado (población, territorio, poder político y soberanía), así como el papel de la Constitución y el derecho en la regulación del orden estatal. Estos conocimientos permitirán establecer una base crítica para la comprensión del derecho constitucional y de las estructuras gubernamentales contemporáneas. 
-    
-    p.mb-4 La relevancia de comprender estos temas radica en su aplicación directa en el campo del derecho y la política, permitiendo interpretar la dinámica del poder y la organización estatal en distintos contextos. Comprender el fundamento jurídico del Estado facilita la identificación de los principios normativos que rigen la sociedad y la aplicación de estos en la práctica profesional. 
-    .row.bg-morado.text-white.bg-full-width.mb-4
-      div.px-5.pb-md-3
-        .row
-          .col-12.col-xl-8.d-flex(data-aos="fade-up")
-            p.my-auto Para garantizar una comprensión integral del tema, la unidad se organiza en tres secciones. En primer lugar, se abordarán las principales teorías sobre el Estado desde una perspectiva filosófica y política. Posteriormente, se analizarán sus elementos constitutivos y, finalmente, se estudiará el fundamento jurídico y legal que lo legitima. A lo largo del estudio, se proporcionarán materiales de referencia y actividades que permitirán reforzar los conocimientos adquiridos.
-          .col-4.d-none.d-xl-block
-            img(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')
+      .col-10.col-lg-6.col-xl-4.mx-auto.bg-azul.p-4.d-flex(data-aos='fade-up')
+        span Al finalizar esta unidad, tendrá la capacidad de identificar y diferenciar las principales formas de Estado, comprendiendo sus características, ventajas y desventajas. Asimismo, podrán analizar los distintos sistemas de gobierno, estableciendo relaciones entre la teoría y la práctica política de diversos países. Finalmente, serán capaces de evaluar las funciones del Estado y su impacto en la sociedad, fortaleciendo su capacidad de análisis crítico sobre la organización política.
+
+    .row.bg-morado.p-4.py-xl-0
+      .col-12.col-xl-8.d-flex
+        p.my-auto.text-white El conocimiento de las formas de Estado no solo permite entender la estructura gubernamental de un país, sino también su influencia en la garantía de derechos, la participación ciudadana y la gestión de recursos. En un mundo globalizado y en constante cambio, es crucial que los futuros profesionales del derecho, la ciencia política y otras disciplinas afines adquieran una visión integral sobre el funcionamiento del Estado y su relación con la sociedad.
+      .col-4.d-none.d-xl-block
+        img(src='@/assets/curso/unidad/img-2.png', alt='Texto que describa la imagen')
+
 
 
 </template>
