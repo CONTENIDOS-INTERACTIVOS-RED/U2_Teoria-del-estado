@@ -95,8 +95,8 @@
         div.px-5.pb-md-3.py-4.d-flex
           .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Comparación de los sistemas de gobierno: parlamentarismo, presidencialismo y semipresidencialismo
-            p.mb-5(data-aos="fade-up") Se invita a leer el documento Comparación de los sistemas de gobierno , donde se aborda el análisis comparado de los modelos parlamentario, presidencialista y semipresidencialista, con énfasis en su estructura, funcionamiento y efectos sobre la gobernabilidad y la representación democrática.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Comparación de los sistemas de gobierno.pdf')" target="_blank")
+            p.mb-5(data-aos="fade-up") Se invita a leer el documento Comparación de los sistemas de gobierno, donde se aborda el análisis comparado de los modelos parlamentario, presidencialista y semipresidencialista, con énfasis en su estructura, funcionamiento y efectos sobre la gobernabilidad y la representación democrática.
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Comparación_de_los_sistemas.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Comparación de los sistemas de gobierno: parlamentarismo, presidencialismo y semipresidencialismo
           .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")

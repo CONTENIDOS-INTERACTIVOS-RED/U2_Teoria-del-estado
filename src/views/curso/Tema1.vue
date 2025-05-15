@@ -187,8 +187,8 @@
 
     p.mb-4 Las confederaciones suelen establecerse mediante <b>tratados internacionales</b>, y tienen la particularidad de ser estructuras <b>reversibles</b>, ya que los miembros pueden retirarse libremente, provocando la disolución del sistema. Algunos ejemplos históricos son:
 
-    .row.bg-fondo-1.bg-full-width.py-4.mb-0
-      div.px-5.pb-md-3
+    .row.bg-fondo-1.bg-full-width.py-4
+      div.px-5
 
         .row.mb-4.justify-content-center
           .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
@@ -206,7 +206,7 @@
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-20.svg', style='width: 80px')
               p.text-bold.mb-4.text-center Confederación del Rin (1806–1815)
               p.px-1.text-small.mb-0.text-center Organizada por Napoleón; colapsó tras su derrota.
-          .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+          .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto(data-aos='zoom-in')
             .custom-image-card.d-flex.flex-column.p-4.py-md-5
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-20.svg', style='width: 80px')
               p.text-bold.mb-4.text-center Confederación Peruano-Boliviana (1836–1839)
